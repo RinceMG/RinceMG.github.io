@@ -1,0 +1,84 @@
+Uri: https://tset4235.wordpress.com/
+File Name: E:\Downloads\web\tset4235.wordpress.com\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: https://tset4235.wordpress.com/comments/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\comments\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: https://tset4235.wordpress.com/xmlrpc.php?rsd
+File Name: E:\Downloads\web\tset4235.wordpress.com\xmlrpc.xml
+Content Type: text/xml
+
+Uri: https://tset4235.wordpress.com/osd.xml
+File Name: E:\Downloads\web\tset4235.wordpress.com\osd.xml
+Content Type: application/xml
+
+Uri: https://tset4235.wordpress.com/home/
+File Name: E:\Downloads\web\tset4235.wordpress.com\home\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/about/
+File Name: E:\Downloads\web\tset4235.wordpress.com\about\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/contact/
+File Name: E:\Downloads\web\tset4235.wordpress.com\contact\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post-3/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post-3\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post-2/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post-2\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/author/rincem/
+File Name: E:\Downloads\web\tset4235.wordpress.com\author\rincem\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post-3/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post-3\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post-3/amp/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post-3\amp\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/category/без-рубрики/
+File Name: E:\Downloads\web\tset4235.wordpress.com\category\без-рубрики\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post-2/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post-2\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post-2/amp/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post-2\amp\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: https://tset4235.wordpress.com/2020/10/04/example-post/amp/
+File Name: E:\Downloads\web\tset4235.wordpress.com\2020\10\04\example-post\amp\index.htm
+Content Type: text/html
+
+Uri: https://tset4235.wordpress.com/author/rincem/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\author\rincem\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: https://tset4235.wordpress.com/category/без-рубрики/feed/
+File Name: E:\Downloads\web\tset4235.wordpress.com\category\без-рубрики\feed\index.rss
+Content Type: application/rss+xml
+
