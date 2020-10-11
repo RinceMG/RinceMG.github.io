@@ -1,20 +1,24 @@
 Uri: https://eeca-test.webnode.ru/
-File Name: E:\Downloads\web\eeca-test.webnode.ru\index.htm
+File Name: c:\Downloaded Web Sites\eeca-test.webnode.ru\index.htm
 Content Type: text/html
 
 Uri: https://eeca-test.webnode.ru/proekty/
-File Name: E:\Downloads\web\eeca-test.webnode.ru\proekty\index.htm
+File Name: c:\Downloaded Web Sites\eeca-test.webnode.ru\proekty\index.htm
 Content Type: text/html
 
 Uri: https://eeca-test.webnode.ru/uslugi/
-File Name: E:\Downloads\web\eeca-test.webnode.ru\uslugi\index.htm
+File Name: c:\Downloaded Web Sites\eeca-test.webnode.ru\uslugi\index.htm
 Content Type: text/html
 
 Uri: https://eeca-test.webnode.ru/o-nas/
-File Name: E:\Downloads\web\eeca-test.webnode.ru\o-nas\index.htm
+File Name: c:\Downloaded Web Sites\eeca-test.webnode.ru\o-nas\index.htm
 Content Type: text/html
 
 Uri: https://eeca-test.webnode.ru/kontakty/
-File Name: E:\Downloads\web\eeca-test.webnode.ru\kontakty\index.htm
+File Name: c:\Downloaded Web Sites\eeca-test.webnode.ru\kontakty\index.htm
 Content Type: text/html
+
+Uri: https://eeca-test.webnode.ru/_files/200000008-b77f2b77f5/450/image-crop-200000007.png
+File Name: c:\Downloaded Web Sites\eeca-test.webnode.ru\_files\200000008-b77f2b77f5\450\image-crop-200000007.png
+Content Type: image/png
 
