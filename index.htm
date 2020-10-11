@@ -1,343 +1,446 @@
-﻿<!doctype html>
-<html lang="ru-RU">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<title>Название сайта</title>
-<link rel='dns-prefetch' href='//s2.wp.com'>
-<link rel='dns-prefetch' href='//s1.wp.com'>
-<link rel='dns-prefetch' href='//s0.wp.com'>
-<link rel='dns-prefetch' href='//wordpress.com'>
-<link rel='dns-prefetch' href='//fonts.googleapis.com'>
-<link rel="alternate" type="application/rss+xml" title="Название сайта &raquo; Лента" href="feed\index.rss">
-<link rel="alternate" type="application/rss+xml" title="Название сайта &raquo; Лента комментариев" href="comments\feed\index.rss">
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		function addLoadEvent(func) {
-			var oldonload = window.onload;
-			if (typeof window.onload != 'function') {
-				window.onload = func;
-			} else {
-				window.onload = function () {
-					oldonload();
-					func();
-				}
-			}
-		}
-		/* ]]> */
-	</script>
-			<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1596548281h&ver=5.5-wpcom-48929"}};
-			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='all-css-0-1' href='https://s2.wp.com/_static/??-eJylkeFqQyEMhV9o3uy2ULofY8+i3uBsjYqJlPv207u2dG1pC0MQcsx3MDlwyMqmKBgFqKocqvOR4ZBtIsXkA85X1WCZ3+ACMyG5M0i67FF8dMroAq31r3IDnzhXW2mwuPZSED6GcRjBVB+m7m/3KnhTdJmBZQ74fxv5RnrFZqEYdihZd1zPqYpyxU8v/+TKoui+DH6C23TEVkM7MHmWs6buoxfx9eGbTllL7yCcvMbQJo7yCPvN2ZhckFm1m3wltaxqif2LPsfN+7jebNfb1e4HqsfU9w==?cssminify=yes' type='text/css' media='all'>
-<style id='wp-block-library-inline-css'>
-.has-text-align-justify {
-	text-align:justify;
-}
-</style>
-<style id='global-styles-inline-css'>
-:root{--wp--preset--color--primary:#1279BE;--wp--preset--color--secondary:#FFB302;--wp--preset--color--foreground-dark:#101010;--wp--preset--color--foreground:#303030;--wp--preset--color--foreground-light:#757575;--wp--preset--color--background-dark:#C5C5C5;--wp--preset--color--background-light:#F8F8F8;--wp--preset--color--background:#FFFFFF;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small:17.3914;--wp--preset--font-size--normal:23;--wp--preset--font-size--large:26.45;--wp--preset--font-size--huge:30.4174;}
-</style>
-<link rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/comment-likes/css/comment-likes.css,/i/noticons/noticons.css?m=1436783281j&cssminify=yes' type='text/css' media='all'>
-<link rel='stylesheet' id='print-css-3-1' href='https://s1.wp.com/wp-content/themes/pub/varia/print.css?m=1571655471h&cssminify=yes' type='text/css' media='print'>
-<link rel='stylesheet' id='all-css-4-1' href='https://s0.wp.com/_static/??-eJx9jUEOAiEMRS8kFo1O4sJ4FgYrUwVKoAzx9mLcjHHirj//vV9oSVmOglFAJgxYINURJpwxQ5Gnx60tZQPr2GwyGaBoP6hqyXL4EUJVyVdHsUCjq0MpgLW3/CBU3jQQDMkb6aPrHxcDDll5tkaI41dQN28o/1Mzjp5dPx10ahHf0iWcd4PWp+Fw1Pv7C0EQZ4E=?cssminify=yes' type='text/css' media='all'>
-<link crossorigin="anonymous" rel='stylesheet' id='hever-fonts-css' href='https://fonts.googleapis.com/css?family=PT+Sans%3A400%2C400i%2C700%2C700i&subset=latin%2Clatin-ext&display=swap' media='all'>
-<link rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??/wp-content/themes/pub/hever/style.css,/wp-content/mu-plugins/actionbar/actionbar.css?m=1600964502j&cssminify=yes' type='text/css' media='all'>
-<style id='jetpack-global-styles-frontend-style-inline-css'>
-:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
-</style>
-<link rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/_static/??-eJxti8sKgCAQAH8oW6KHdoi+xcTUWF1pjX4/OnSIOg0DM3BmYSgVmwrEQ2Q8XEgMmbiIFXXYgb3eQ3IPa8Ncwf/FZIJGgeToLZ+peBstg+/AIS0a72COU9OPUg69atV2AWWKN+I=?cssminify=yes' type='text/css' media='all'>
-<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/js/postmessage.js,/wp-content/js/mobile-useragent-info.js?m=1558356653j'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.xml?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress.com">
-<link rel="canonical" href="index.htm">
-<link rel='shortlink' href='https://wp.me/PcqHjJ-6'>
-<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&url=https%3A%2F%2Ftset4235.wordpress.com%2F&for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&url=https%3A%2F%2Ftset4235.wordpress.com%2F&for=wpcom-auto-discovery">
-<!-- Jetpack Open Graph Tags -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Название сайта">
-<meta property="og:url" content="https://tset4235.wordpress.com/">
-<meta property="og:site_name" content="Название сайта">
-<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
-<meta property="og:locale" content="ru_RU">
-<meta name="twitter:site" content="@wordpressdotcom">
-<meta name="twitter:text:title" content="Главная страница">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:description" content="Посмотрите запись, чтобы узнать подробности.">
-<meta property="fb:app_id" content="249643311490">
-<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+﻿<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="lt-ie10 lt-ie9 no-js" prefix="og: https://ogp.me/ns#" lang="ru"><![endif]--><!--[if IE 9]>
+<html class="lt-ie10 no-js" prefix="og: https://ogp.me/ns#" lang="ru"><![endif]--><!--[if gt IE 9]><!--><html class="no-js" prefix="og: https://ogp.me/ns#" lang="ru"><!--<![endif]--><head><meta charset="utf-8"><link rel="shortcut icon" href="https://d1di2lzuh97fh2.cloudfront.net/files/44/442/442wv9.ico?ph=3662387ec6"><link rel="apple-touch-icon" href="https://d1di2lzuh97fh2.cloudfront.net/files/44/442/442wv9.ico?ph=3662387ec6"><link rel="icon" href="https://d1di2lzuh97fh2.cloudfront.net/files/44/442/442wv9.ico?ph=3662387ec6"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>eeca.test</title><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="msapplication-tap-highlight" content="no"><link href="https://d1di2lzuh97fh2.cloudfront.net/files/3e/3e6/3e69e3.css?ph=3662387ec6" rel="stylesheet"><link href="https://d1di2lzuh97fh2.cloudfront.net/files/1p/1pk/1pkij3.css?ph=3662387ec6" rel="stylesheet"><link rel="stylesheet" href="https://d1di2lzuh97fh2.cloudfront.net/files/3w/3w9/3w9zbi.css?ph=3662387ec6" data-wnd_color_scheme_file=""><link rel="stylesheet" href="https://d1di2lzuh97fh2.cloudfront.net/files/24/24t/24tzlz.css?ph=3662387ec6" data-wnd_additive_color_file=""><link rel="stylesheet" href="https://d1di2lzuh97fh2.cloudfront.net/files/1p/1pj/1pjc81.css?ph=3662387ec6" data-wnd_typography_file=""><meta name="description" content="Мы строим уникальные здания  в соответствии с требованиями окружающей среды. Наши награды говорят сами за себя."><meta name="keywords" content=""><meta name="generator" content="Webnode 2"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no">
 
-<!-- End Jetpack Open Graph Tags -->
-<link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
-<link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
-<link rel="apple-touch-icon" href="https://s2.wp.com/i/webclip.png">
-<link rel="search" type="application/opensearchdescription+xml" href="osd.xml" title="Название сайта">
-<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
-<meta name="application-name" content="Название сайта"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-task" content="name=Подписаться;action-uri=https://tset4235.wordpress.com/feed/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Зарегистрируйтесь и начните вести бесплатный блог;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Поддержка WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Форумы WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="description" content="Добро пожаловать на ваш новый сайт. Добро пожаловать на ваш новый сайт! Чтобы внести изменения на этой странице, нажмите ссылку &quot;Правка&quot;. For more information about customizing your site check out  http://learn.wordpress.com/ Подробно Последние записи Получайте новое содержимое прямо на почту.">
-</head>
+<meta property="og:url" content="https://eeca-test.webnode.ru/"><meta property="og:title" content="eeca.test"><meta property="og:type" content="article"><meta property="og:description" content="Мы строим уникальные здания  в соответствии с требованиями окружающей среды. Наши награды говорят сами за себя."><meta property="og:site_name" content="eeca.test"><meta property="og:image" content="https://d1di2lzuh97fh2.cloudfront.net/files/2e/2ef/700/2efgv2.jpg?ph=3662387ec6"><meta property="og:article:published_time" content="2020-10-11T00:00:00+0200"><meta name="robots" content="index,follow"><link rel="canonical" href="index.htm"><script>window.checkAndChangeSvgColor=function(c){try{var a=document.getElementById(c);if(a){c=[["border","borderColor"],["outline","outlineColor"],["color","color"]];for(var h,b,d,f=[],e=0,m=c.length;e<m;e++)if(h=window.getComputedStyle(a)[c[e][1]].replace(/\s/g,"").match(/^rgb[a]?\(([0-9]{1,3}),([0-9]{1,3}),([0-9]{1,3})/i)){b="";for(var g=1;3>=g;g++)b+=("0"+parseInt(h[g],10).toString(16)).slice(-2);"0"===b.charAt(0)&&(d=parseInt(b.substr(0,2),16),d=Math.max(16,d),b=d.toString(16)+b.slice(-4));f.push(c[e][0]+"="+b)}if(f.length){var k=a.getAttribute("data-src"),l=k+(0>k.indexOf("?")?"?":"&")+f.join("&");a.src!=l&&(a.src=l,a.outerHTML=a.outerHTML)}}}catch(n){}};</script><link rel="stylesheet" href="https://use.typekit.net/fch3vye.css"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-797705-6', 'auto',{"name":"wnd_header"});ga('wnd_header.set', 'dimension1', 'W2');ga('wnd_header.set', 'anonymizeIp', true);ga('wnd_header.send', 'pageview');</script></head><body class="l l-01 layout-01 contract c-s-s wt-home b-btn-sq b-btn-s-l b-btn-dn b-btn-bw-1 img-d-n img-t-o img-h-z line-solid b-e-ds lbox-d c-s-s   wnd-fe  wnd-fonts-fallback">
+	<div class="wnd-page cs-slate ac-none">
 
-<body class="home page-template-default page page-id-6 wp-embed-responsive customizer-styles-applied singular image-filters-enabled hide-homepage-title has-marketing-bar highlander-enabled highlander-light">
+	<div id="wrapper" class="l-w cf t-17">
 
-	
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content">Перейти к содержимому</a>
+		<header id="header" class="l-h cf">
 
-	
-		<header id="masthead" class="site-header responsive-max-width">
-
+			<div class="section-wrapper cf">
+	<div class="section-wrapper-content cf"><div class="s section header header-01 cf design-01 sc-m wnd-background-image">
+	<div class="section-bg s-bg">
+		<div class="section-bg-layer wnd-background-image fx-none bgatt-scroll bgpos-bottom-center" style="background-image:url('https://d1di2lzuh97fh2.cloudfront.net/files/2h/2hh/450/2hhaxr.jpeg?ph=3662387ec6')">
 			
-
-			<p class="site-title"><a href="index.htm" rel="home">Название сайта</a></p>
-	
-
-							<nav id="site-navigation" class="main-navigation" aria-label="Меню навигации">
-					<input type="checkbox" role="button" aria-haspopup="true" id="toggle" class="hide-visually">
-					<label for="toggle" id="toggle-menu" class="button">
-						Меню						<span class="dropdown-icon open">+</span>
-						<span class="dropdown-icon close">&times;</span>
-						<span class="hide-visually expanded-text">expanded</span>
-						<span class="hide-visually collapsed-text">collapsed</span>
-					</label>
-					<div class="menu-primary-container"><ul id="menu-primary" class="main-menu" aria-label="submenu"><li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="index.htm" aria-current="page">Главная страница</a></li>
-<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="home\index.htm">Блог</a></li>
-<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="about\index.htm">О нас</a></li>
-<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="contact\index.htm">Контакты</a></li>
-</ul></div>				</nav><!-- #site-navigation -->
-			
-			
-		</header><!-- #masthead -->
-
-	
-	<div id="content" class="site-content">
-
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-			
-<article id="post-6" class="post-6 page type-page status-publish hentry entry">
-
-	<header class="entry-header responsive-max-width">
-		
-<h1 class="entry-title">Главная страница</h1>
-	</header>
-
-	<div class="entry-content">
-		<div class="wp-block-cover alignfull has-background-dim-10 has-background-dim" style="background-image: url('https://tset4235.files.wordpress.com/2020/10/qi-bin-w4hbafegiac-unsplash.jpg');"><div class="wp-block-cover__inner-container"><div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-8 column1-desktop-grid__start-3 column1-desktop-grid__row-1 column1-tablet-grid__span-8 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column1-desktop-grid__span-8 column1-desktop-grid__start-3 column1-desktop-grid__row-1 column1-tablet-grid__span-8 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1"><div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<h1 class="has-text-align-center">Добро пожаловать на ваш новый сайт.</h1>
-
-
-
-<p class="has-text-align-center">Добро пожаловать на ваш новый сайт! Чтобы внести изменения на этой странице, нажмите ссылку &#171;Правка&#187;. For more information about customizing your site check out  <a href="https://href.li/?http://learn.wordpress.com/">http://learn.wordpress.com/</a></p>
-
-
-
-<div class="wp-block-buttons aligncenter">
-<div class="wp-block-button"><a class="wp-block-button__link" href="http://learn.wordpress.com" title="learn.wordpress.com">Подробно</a></div>
-</div>
-</div></div></div></div>
-
-
-<div class="wp-block-group alignfull has-background-background-color has-background"><div class="wp-block-group__inner-container"><div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-12 column1-desktop-grid__row-1 column1-tablet-grid__span-8 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column1-desktop-grid__span-12 column1-desktop-grid__row-1 column1-tablet-grid__span-8 column1-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1"><div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<h4>Последние записи</h4>
-
-
-<div class="wp-block-newspack-blocks-homepage-articles wpnbha is-grid columns-3 show-image image-aligntop ts-3 is-3 is-uncropped wp-block-a8c-blog-posts" style="">
-			<div data-posts="">
-								
-	<article data-post-id="10" class="category-%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8">
-		
-		<div class="entry-wrapper">
-			<h2 class="entry-title"><a href="2020\10\04\example-post-3\index.htm" rel="bookmark">Расскажите о себе (пример публикации)</a></h2>						<p>Это пример публикации, которая первоначально была размещена на сайте «Университет блогинга». Станьте участником одной из десяти программ и начните свой блог правильно. Сегодня вы опубликуете запись. Не переживайте о том, как выглядит ваш блог. Не переживайте, если у него до сих пор нет имени или вы пока не понимаете, что делать. Просто нажмите кнопку «Новая<a class="more-link" href="2020\10\04\example-post-3\index.htm">Читать далее <span class="screen-reader-text">«Расскажите о себе (пример публикации)»</span></a></p>
-				<div class="entry-meta">
-					<time class="entry-date published" datetime="2020-10-04T17:06:53+03:00">04.10.2020</time><time class="updated" datetime="2020-10-04T17:11:58+03:00">04.10.2020</time>				</div><!-- .entry-meta -->
-					</div><!-- .entry-wrapper -->
-	</article>
-
-		
-	<article data-post-id="11" class="category-%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8">
-		
-		<div class="entry-wrapper">
-			<h2 class="entry-title"><a href="2020\10\04\example-post-2\index.htm" rel="bookmark">Расскажите о себе (пример публикации)</a></h2>						<p>Это пример публикации, которая первоначально была размещена на сайте «Университет блогинга». Станьте участником одной из десяти программ и начните свой блог правильно. Сегодня вы опубликуете запись. Не переживайте о том, как выглядит ваш блог. Не переживайте, если у него до сих пор нет имени или вы пока не понимаете, что делать. Просто нажмите кнопку «Новая<a class="more-link" href="2020\10\04\example-post-2\index.htm">Читать далее <span class="screen-reader-text">«Расскажите о себе (пример публикации)»</span></a></p>
-				<div class="entry-meta">
-					<time class="entry-date published" datetime="2020-10-04T17:06:52+03:00">04.10.2020</time><time class="updated" datetime="2020-10-04T17:11:58+03:00">04.10.2020</time>				</div><!-- .entry-meta -->
-					</div><!-- .entry-wrapper -->
-	</article>
-
-		
-	<article data-post-id="12" class="category-%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8">
-		
-		<div class="entry-wrapper">
-			<h2 class="entry-title"><a href="2020\10\04\example-post\index.htm" rel="bookmark">Расскажите о себе (пример публикации)</a></h2>						<p>Это пример публикации, которая первоначально была размещена на сайте «Университет блогинга». Станьте участником одной из десяти программ и начните свой блог правильно. Сегодня вы опубликуете запись. Не переживайте о том, как выглядит ваш блог. Не переживайте, если у него до сих пор нет имени или вы пока не понимаете, что делать. Просто нажмите кнопку «Новая<a class="more-link" href="2020\10\04\example-post\index.htm">Читать далее <span class="screen-reader-text">«Расскажите о себе (пример публикации)»</span></a></p>
-				<div class="entry-meta">
-					<time class="entry-date published" datetime="2020-10-04T17:06:51+03:00">04.10.2020</time><time class="updated" datetime="2020-10-04T17:11:58+03:00">04.10.2020</time>				</div><!-- .entry-meta -->
-					</div><!-- .entry-wrapper -->
-	</article>
-
-					</div>
-			
-		</div></div></div></div></div>
-
-
-
-<div class="wp-block-group alignfull has-foreground-dark-background-color has-background"><div class="wp-block-group__inner-container"><div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-3 column1-desktop-grid__start-3 column1-desktop-grid__row-1 column2-desktop-grid__span-5 column2-desktop-grid__start-6 column2-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column2-tablet-grid__span-4 column2-tablet-grid__start-5 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2 column1-desktop-grid__span-3 column1-desktop-grid__start-3 column1-desktop-grid__row-1 column2-desktop-grid__span-5 column2-desktop-grid__start-6 column2-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column2-tablet-grid__span-4 column2-tablet-grid__start-5 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2"><div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<p class="has-text-align-left has-huge-font-size">Получайте новое содержимое прямо на почту.</p>
-</div>
-
-<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none"><div class="wp-block-jetpack-subscriptions"><div class="jetpack_subscription_widget">			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="">
-														<p id="subscribe-email">
-						<input type="text" name="email" style="width: 95%; padding: 1px 10px" placeholder="Введите свой адрес электронной почты" value="" id="">					</p>
-				
-				<p id="subscribe-submit">
-                    <input type="hidden" name="action" value="subscribe">
-                    <input type="hidden" name="blog_id" value="183679075">
-                    <input type="hidden" name="source" value="https://tset4235.wordpress.com/">
-                    <input type="hidden" name="sub-type" value="widget">
-                    <input type="hidden" name="redirect_fragment" value="545">
-					<input type="hidden" id="_wpnonce" name="_wpnonce" value="c9d7e0b9e4">                    <button type="submit" class="undefined" style="margin-left: 0px;">
-	                    Подписаться                    </button>
-                </p>
-            </form>
-			
-</div></div></div></div></div></div>
-	</div><!-- .entry-content -->
-
-	</article><!-- #post-6 -->
-
-		</main><!-- #main -->
-	</section><!-- #primary -->
-
-
-	</div><!-- #content -->
-
-		<footer id="colophon" class="site-footer responsive-max-width">
-	
-		<div class="site-info">
-										<a class="site-name" href="index.htm" rel="home">Название сайта</a><span class="comma">,</span>
-						<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Блог на WordPress.com.</a>					</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-
-</div><!-- #page -->
-
-<!--  -->
-<div id="marketingbar" class="marketing-bar noskim"><div class="marketing-bar-text">Создайте веб-сайт на WordPress.com</div><a class="marketing-bar-button" href="https://wordpress.com/start/ru?ref=marketing_bar">Начало работы</a><a class="marketing-bar-link" tabindex="-1" aria-label="Создайте веб-сайт на WordPress.com" href="https://wordpress.com/start/ru?ref=marketing_bar"></a></div><script src='//0.gravatar.com/js/gprofiles.js?ver=202041y' id='grofiles-cards-js'></script>
-<script id='wpgroho-js-extra'>
-var WPGroHo = {"my_hash":""};
-</script>
-<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
-
-	<script>
-		//initialize and attach hovercards to all gravatars
-		jQuery( document ).ready( function( $ ) {
-
-			if (typeof Gravatar === "undefined"){
-				return;
-			}
-
-			if ( typeof Gravatar.init !== "function" ) {
-				return;
-			}			
-
-			Gravatar.profile_cb = function( hash, id ) {
-				WPGroHo.syncProfileData( hash, id );
-			};
-			Gravatar.my_hash = WPGroHo.my_hash;
-			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
-		});
-	</script>
-
-		<div style="display:none">
-	<div class="grofile-hash-map-1950e5fd80f7dc8875f37d302e0a7d9a">
+		</div>
+		<div class="section-bg-layer section-bg-overlay overlay-black-light"></div>
 	</div>
-	</div>
-<div class="widget widget_eu_cookie_law_widget">
-<div class="hide-on-button ads-active" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
-	<form method="post">
-		<input type="submit" value="Принять и закрыть" class="accept">
 
-		Политика конфиденциальности и использования файлов сookie: Этот сайт использует файлы cookie. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием. <br>
-Дополнительную информацию, в том числе об управлении файлами cookie, можно найти здесь:
-				<a href="https://automattic.com/cookies" rel="nofollow">
-			Политика использования файлов cookie		</a>
- </form>
+	<div class="nav-line initial-state cf header-fixed wnd-fixed header-bg">
+		<div class="section-inner">
+
+			<div class="logo logo-default proxima-nova">
+    <div class="logo-content">
+        
+            
+            
+	        <div class="text-content-outer">
+		        <span class="text-content"><strong>Арх</strong> Дизайн</span>
+	        </div>
+        
+    </div>
 </div>
-</div><link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/_static/??-eJxtjsESgjAMRH/IGHCk6MHxUxwopRMoLdOkMv69VeCkx2R33y4uM+jgxXjB2SVLntGmfLYmWmhd0CPjYGRu9AiueYUkYCN1uEl9zOGjZj7gH1KfnAMmMWA6EvIWVgVPda3Ka6Eq9GbhL3wDdsTygWdrYOH1DU8yy0/LlGAv2hbig7zep3FqWUeahUJ27IT7dCtVUar6XBWX4Q3lD14I?cssminify=yes' type='text/css' media='all'>
-<script id='comment-like-js-extra'>
-var comment_like_text = {"loading":"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430..."};
-</script>
-<script id='wpcom-actionbar-bar-js-extra'>
-var actionbardata = {"siteID":"183679075","siteName":"\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0441\u0430\u0439\u0442\u0430","siteURL":"http:\/\/tset4235.wordpress.com","icon":"<img alt='' src='https:\/\/s2.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/hever","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/wordpress.com\/log-in?redirect_to=https%3A%2F%2Ftset4235.wordpress.com%2F&signup_flow=account","themeURL":"https:\/\/wordpress.com\/theme\/hever\/","xhrURL":"https:\/\/tset4235.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"50a82ef631","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"c9d7e0b9e4\" \/>","referer":"https:\/\/tset4235.wordpress.com\/","canFollow":"1","feedID":"109320539","statusMessage":"","customizeLink":"https:\/\/tset4235.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ftset4235.wordpress.com%2F","postID":"6","shortlink":"https:\/\/wp.me\/PcqHjJ-6","canEditPost":"","editLink":"https:\/\/wordpress.com\/block-editor\/page\/tset4235.wordpress.com\/6","statsLink":"https:\/\/wordpress.com\/stats\/post\/6\/tset4235.wordpress.com","i18n":{"view":"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0441\u0430\u0439\u0442\u0430","follow":"\u041e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0442\u044c","following":"\u041e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0435 \u0441\u0430\u0439\u0442\u044b","edit":"\u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c","login":"\u0412\u043e\u0439\u0442\u0438","signup":"\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f","customize":"\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c","report":"\u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e\u0431 \u044d\u0442\u043e\u043c \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u043c","themeInfo":"\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0442\u0435\u043c\u0443: Hever","shortlink":"\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0443","copied":"\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"\u0421\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u044d\u0442\u0443 \u043f\u0430\u043d\u0435\u043b\u044c","unfoldBar":"\u0420\u0430\u0437\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u044d\u0442\u0443 \u043f\u0430\u043d\u0435\u043b\u044c","editSubs":"\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0430\u043c\u0438","viewReader":"\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0441\u0430\u0439\u0442 \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 \u00ab\u0427\u0438\u0442\u0430\u043b\u043a\u0430\u00bb","viewReadPost":"View post in Reader","subscribe":"\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f","enterEmail":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b","followers":"","alreadyUser":"\u0423\u0436\u0435 \u0435\u0441\u0442\u044c \u0443\u0447\u0451\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c WordPress.com? <a href=\"https:\/\/wordpress.com\/log-in?redirect_to=https%3A%2F%2Ftset4235.wordpress.com%2F&signup_flow=account\">\u0412\u043e\u0439\u0434\u0438\u0442\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0443.<\/a>","stats":"\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430"}};
-</script>
-<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVUMtug0AM/KFuDFUC7aHqtyy7DjJ4H8IG2r/vIpqozQEpt9GM5yHDmo1LUTEqDAIeF3KYv06DvMAfKcwm89xTFHAphEIZphFl8zB1ICtlfMb0jzgwruR7VAGci5pGQsN2BcWQ2So+8Ac51geKprMTBCuKU0EmLThN5EvKnXsyQSfrxqP51imluJnu6HZN0fHs9294EoUFo0/TJuXE31diPpXGx/Bb8nVmNkKKBj0pxf63E17btqnfq+YCEVfJZaDpOJWZe0vB5TSJyk6bhXB73Gf4qJuqbtrzpXobfgDiUsax'></script>
-<script type='text/javascript'>
-( 'fetch' in window ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?m=1573572739h&#038;ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://s1.wp.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?m=1540208548h&#038;ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?m=1585663916h&#038;ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://s2.wp.com/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?m=1585663916h&#038;ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://s1.wp.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?m=1550600082h&#038;ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://s2.wp.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?m=1540208548h&#038;ver=2.0.2"></scr' + 'ipt>' );
-</script>
-	<script>
-	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
-	</script>
-	<script type="text/javascript">
-// <![CDATA[
-(function() {
-try{
-  if ( window.external &&'msIsSiteMode' in window.external) {
-    if (window.external.msIsSiteMode()) {
-      var jl = document.createElement('script');
-      jl.type='text/javascript';
-      jl.async=true;
-      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(jl, s);
-    }
-  }
-}catch(e){}
-})();
-// ]]>
-</script><script src="//stats.wp.com/w.js?61" type="text/javascript" async="" defer=""></script>
-<script type="text/javascript">
-_tkq = window._tkq || [];
-_stq = window._stq || [];
-_tkq.push(['storeContext', {'blog_id':'183679075','blog_tz':'3','user_lang':'ru','blog_lang':'ru','user_id':'0'}]);
-_stq.push(['view', {'blog':'183679075','v':'wpcom','tz':'3','user_id':'0','post':'6','subd':'tset4235'}]);
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mJVY3bm9aR3VCbS9mWm1pRyZuJS1LX1t5QmRXZzE3RC9rQWZHK1FjbDltdWdaMVFFZTcxWldmV10tUWgraE1GWnYwY0ZmaGRuU3guUE5STz1hcHVoJkZxVmpbNFFfZWFYS0s9R1tbSiZqM3FqXS8/fDAtLDRlODJUUFZyflRbMnZ+dmVIMSxQSj1VaWl6eThWZENTWFV2cTZ3JkdNdzcwL1t5azk2dTkzMj8xeEtNfj1xP1VHWlEsflAxMmpfNmFubVpQR3l+cDlkRms/Um0tZWcyL3pLWV1FOUZ0cXVOZzM4NFlOSStpRS9DSm0lbWktQlpKOHpGWTY4ZD1DTS00ZkZTWUhac2REMWRqMmFbbHgrVmlN'}]);
-_stq.push([ 'clickTrackerInit', '183679075', '6' ]);
-	</script>
-<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt=""></noscript>
-<script>
-if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 
-	wpcom_mobile_user_agent_info.init();
-	var mobileStatsQueryString = "";
-	
-	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
-		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
-	
-	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
-		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
-	
-	if( wpcom_mobile_user_agent_info.isIPad() )
-		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+			
 
-	if( "" != mobileStatsQueryString ) {
-		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
-	}
+			<nav id="menu" role="navigation" data-mobile="slide"><div class="menu-font">
+	<a href="#" class="close-menu" rel="nofollow">
+		<span>Close Menu</span>
+	</a>
+	<ul class="level-1"><li class="wnd-active   wnd-homepage">
+			<a class="menu-item" href="index.htm"><span class="menu-item-text">Главная</span></a>
+			
+		</li><li>
+			<a class="menu-item" href="proekty\index.htm"><span class="menu-item-text">Проекты</span></a>
+			
+		</li><li>
+			<a class="menu-item" href="uslugi\index.htm"><span class="menu-item-text">Услуги</span></a>
+			
+		</li><li>
+			<a class="menu-item" href="o-nas\index.htm"><span class="menu-item-text">О нас</span></a>
+			
+		</li><li>
+			<a class="menu-item" href="kontakty\index.htm"><span class="menu-item-text">Контакты</span></a>
+			
+		</li>
+	</ul><span class="more-text">Подробнее</span>
+</div></nav><script type="application/javascript">var el=document.getElementById("menu");"undefined"!=typeof el&&(el.style.display="none")</script><div id="menu-mobile" class="hidden">
+				<a href="#" id="menu-submit"><span></span>Mеню</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="header-claim cf">
+		<div class="claim-table">
+			<div class="claim-table-cell">
+				<div class="section-inner">
+					<h1 class="auto-font-size"><span class="styled-inline-text claim-default wnd-font-size-80 brandon-grotesque">
+	<span><span>ПРОЕКТИРУЕМ МЕЧТЫ</span></span>
+</span></h1>
+					<div class="subclaim"><span class="styled-inline-text claim-default wnd-font-size-20 proxima-nova">
+	<span><span>Проектируем здания для комфортной жизни</span></span>
+</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+</div>
+
+		</header><main id="main" class="l-m cf" role="main">
+
+			<div class="section-wrapper cf">
+	<div class="section-wrapper-content cf"><section class="s section default-01 design-01 sc-w"><div class="section-bg s-bg">
+		<div class="section-bg-layer">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay"></div>
+	</div>
+	<div class="section-inner">
+		<div class="content ez cf wnd-no-cols">
+	<div class="ez-c">
+		<div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h2 style="text-align:center">Мы строим <strong>уникальные здания</strong>  в соответствии с требованиями окружающей среды. <strong>Наши награды</strong> говорят сами за себя.</h2>
+
+<h3 style="text-align:center">Петр и Иван Сидоровы,&nbsp;владельцы</h3>
+</div>
+</div>
+	</div>
 	
-}
-</script>
-</body>
-</html>
+</div>
+	</div>
+</section><section class="s section heading-01 design-02 sc-m wnd-background-image"><div class="section-bg s-bg">
+		<div class="section-bg-layer wnd-background-image fx-none bgpos-bottom-center bgatt-scroll" style="background-image:url('https://d1di2lzuh97fh2.cloudfront.net/files/0z/0zx/450/0zxmuz.jpg?ph=3662387ec6')">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay overlay-black-light"></div>
+	</div>
+	<div class="section-inner">
+		<div class="content">
+			<div class="heading-table">
+				<div class="heading-table-cell">
+					<h1 class="heading-claim auto-font-size"><span class="styled-inline-text claim-default wnd-font-size-80 brandon-grotesque">
+	<span><span>НАШИ ПРОЕКТЫ</span></span>
+</span></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="s section default-01 design-02 sc-w"><div class="section-bg s-bg">
+		<div class="section-bg-layer">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay"></div>
+	</div>
+	<div class="section-inner">
+		<div class="content ez cf wnd-no-cols">
+	<div class="ez-c">
+		<div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h2 style="text-align: center; margin-left: 1em; margin-right: 1em;">В "Арх Дизайн" мы не просто строим дома, мы создаем комфортное пространство.</h2>
+</div>
+</div><div class="mt mt-2 mt-2-l mt-02-project cf img-s-l-50">
+    <div class="cf">
+        <div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-landscape wnd-type-image" style="" id="wnd_ImageBlock_583453">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <img src="https://d1di2lzuh97fh2.cloudfront.net/files/2e/2ef/200/2efgv2.jpg?ph=3662387ec6" alt="" style=""><div class="b-img-embed">
+                </div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>Квартирный дом</h3>
+
+<h4>СОВРЕМЕННЫЙ ДОМ С ОТЛИЧНОЙ ИНФРАСТРУКТУРОЙ</h4>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Эжт ан мюкиуж граэкйж мэль про экз жкрибэнтур интылльэгэбат но ыльигэнди янвыняры мэдиокретатым зыд про модо адхюк.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-landscape wnd-type-image" style="" id="wnd_ImageBlock_138519">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <img src="https://d1di2lzuh97fh2.cloudfront.net/files/1g/1gt/200/1gtpw4.jpg?ph=3662387ec6" alt="" style=""><div class="b-img-embed">
+                </div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>Библиотека</h3>
+
+<h4>ПРИМЕР ФУТУРИСТИЧНОГО ДИЗАЙНА</h4>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Ку зыд кюм тантаз ийжквюы фиэрэнт эа ут выльёт доктюж зюжкепиантюр мэль ат пауло пондэрюм дэчырюёжжэ.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-landscape wnd-type-image" style="" id="wnd_ImageBlock_220262">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <img src="https://d1di2lzuh97fh2.cloudfront.net/files/2a/2a0/200/2a0o38.jpg?ph=3662387ec6" alt="" style=""><div class="b-img-embed">
+                </div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>Парковые зоны отдыха</h3>
+
+<h4>ЗЕЛЕНЫЙ ОАЗИС В ЦЕНТРЕ ГОРОДА</h4>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Вэртырэм конкльюдатюрквюэ ан алиё малйж пэр нам эа пэрчыквюэрёж адвыржаряюм ку жят ныморэ мэнтётюм.&nbsp;&nbsp;&nbsp;</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-landscape wnd-type-image" style="" id="wnd_ImageBlock_625916">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <img src="https://d1di2lzuh97fh2.cloudfront.net/files/3b/3b6/200/3b6w7l.jpg?ph=3662387ec6" alt="" style=""><div class="b-img-embed">
+                </div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>Торговый центр</h3>
+
+<h4>МЕЧТА ЛЮБОГО ШОПОГОЛИКА</h4>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Чтэт кхоро вэртырэм но вёжи дэниквюы лыгэндоч шэа ты партым аляквюид рэктэквуэ ыам ед вяш адвыржаряюм витюпэраторебуз эа.&nbsp;&nbsp;&nbsp;</p>
+</div>
+</div>
+	        
+        </div>
+    </div>
+</div>
+	</div>
+	
+</div>
+	</div>
+</section><section class="s section heading-01 design-02 sc-m wnd-background-image"><div class="section-bg s-bg">
+		<div class="section-bg-layer wnd-background-image fx-none bgpos-center-center bgatt-scroll" style="background-image:url('https://d1di2lzuh97fh2.cloudfront.net/files/1r/1rl/450/1rl5yj.jpg?ph=3662387ec6')">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay overlay-black-light"></div>
+	</div>
+	<div class="section-inner">
+		<div class="content">
+			<div class="heading-table">
+				<div class="heading-table-cell">
+					<h1 class="heading-claim auto-font-size"><span class="styled-inline-text claim-default brandon-grotesque">
+	<span><span></span></span>
+</span></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="s section default-01 design-02 sc-w"><div class="section-bg s-bg">
+		<div class="section-bg-layer">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay"></div>
+	</div>
+	<div class="section-inner">
+		<div class="content ez cf wnd-no-cols">
+	<div class="ez-c">
+		<div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h2 style="text-align:center">Все проекты продуманы до последней детали.</h2>
+
+<h2 style="text-align:center">От первого эскиза и до завершения строительства.</h2>
+</div>
+</div><div class="mt mt-3 mt-3-l mt-03-column cf img-s-c">
+    <div class="cf">
+        <div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-square wnd-type-icon" style="" id="wnd_ImageBlock_10107">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <div class="b-img-embed">
+                <embed alt="" style="" data-src="https://d1di2lzuh97fh2.cloudfront.net/files/49/49h/49hvvj.svg?ph=3662387ec6" id="wnd_ImageBlock_10107_img" type="image/svg+xml"><script>checkAndChangeSvgColor('wnd_ImageBlock_10107_img');</script></div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>ПРЕСТИЖНЫЕ ПРЕМИИН</h3>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Ты аутым маиорюм молыжтйаы йн прё.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-square wnd-type-icon" style="" id="wnd_ImageBlock_909163">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <div class="b-img-embed">
+                <embed alt="" style="" data-src="https://d1di2lzuh97fh2.cloudfront.net/files/07/07p/07p3l4.svg?ph=3662387ec6" id="wnd_ImageBlock_909163_img" type="image/svg+xml"><script>checkAndChangeSvgColor('wnd_ImageBlock_909163_img');</script></div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>ОБСУЖДАЕМ С КЛИЕНТАМИ</h3>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Дэчырюёжжэ прё еюж пожжёт аккюжамюз ад вэл.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-square wnd-type-icon" style="" id="wnd_ImageBlock_392143">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <div class="b-img-embed">
+                <embed alt="" style="" data-src="https://d1di2lzuh97fh2.cloudfront.net/files/0a/0a8/0a871v.svg?ph=3662387ec6" id="wnd_ImageBlock_392143_img" type="image/svg+xml"><script>checkAndChangeSvgColor('wnd_ImageBlock_392143_img');</script></div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>КОНТРОЛИРУЕМ ПРОЦЕСН</h3>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Юлламкорпэр вяш экз долорюм фиэрэнт коррюмпит ан.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-square wnd-type-icon" style="" id="wnd_ImageBlock_346585">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <div class="b-img-embed">
+                <embed alt="" style="" data-src="https://d1di2lzuh97fh2.cloudfront.net/files/15/15f/15f339.svg?ph=3662387ec6" id="wnd_ImageBlock_346585_img" type="image/svg+xml"><script>checkAndChangeSvgColor('wnd_ImageBlock_346585_img');</script></div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>ИНФРАСТРУКТУРА</h3>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Еюж чтэт кхоро вэртырэм но вёжи.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-square wnd-type-icon" style="" id="wnd_ImageBlock_13488">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <div class="b-img-embed">
+                <embed alt="" style="" data-src="https://d1di2lzuh97fh2.cloudfront.net/files/3g/3gs/3gsyp1.svg?ph=3662387ec6" id="wnd_ImageBlock_13488_img" type="image/svg+xml"><script>checkAndChangeSvgColor('wnd_ImageBlock_13488_img');</script></div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>СОБЛЮДАЕМ СРОКИ</h3>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Но ыльигэнди янвыняры мэдиокретатым зыд про.</p>
+</div>
+</div>
+	        
+        </div><div class="mt-column cf">
+	        
+	            <div class="b-img b-img-default b b-s cf wnd-orientation-square wnd-type-icon" style="" id="wnd_ImageBlock_367089">
+    <div class="b-img-w">
+        <div class="b-img-c cf">
+            <div class="b-img-embed">
+                <embed alt="" style="" data-src="https://d1di2lzuh97fh2.cloudfront.net/files/32/328/328sfr.svg?ph=3662387ec6" id="wnd_ImageBlock_367089_img" type="image/svg+xml"><script>checkAndChangeSvgColor('wnd_ImageBlock_367089_img');</script></div>
+        </div>
+
+        <div class="b-img-t"></div>
+    </div>
+</div>
+	            <div class="b b-text cf">
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 cf"><h3>ИДЕИ И РЕАЛИЗАЦИЯ</h3>
+
+<p>Нажмите здесь и начните печатать.&nbsp;Ыт оратио фачтидёе жкрибэнтур ку зыд.</p>
+</div>
+</div>
+	        
+        </div>
+    </div>
+</div>
+	</div>
+	
+</div>
+	</div>
+</section><section class="s section heading-01 design-01 sc-m wnd-background-image"><div class="section-bg s-bg">
+		<div class="section-bg-layer wnd-background-image fx-none bgpos-center-center bgatt-scroll" style="background-image:url('https://d1di2lzuh97fh2.cloudfront.net/files/1s/1s9/450/1s9phe.jpg?ph=3662387ec6')">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay overlay-black-light"></div>
+	</div>
+	<div class="section-inner">
+		<div class="content">
+			<div class="heading-table">
+				<div class="heading-table-cell">
+					<h2 class="heading-claim auto-font-size"><span class="styled-inline-text claim-default wnd-font-size-80 brandon-grotesque">
+	<span><span>ЗДАНИЕ ВАШЕЙ МЕЧТЫ</span></span>
+</span></h2>
+					<div class="b b-s b-s-t150 b-s-b150 b-btn b-btn-2 wnd-align-center">
+	<div class="b-btn-c">
+		<a class="b-btn-l" href="kontakty\index.htm">
+			<span class="b-btn-t">Свяжитесь с нами</span>
+		</a>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section></div>
+</div>
+
+		</main><footer id="footer" class="l-f cf">
+
+			<div class="section-wrapper cf">
+	<div class="section-wrapper-content cf"><section wn-border="top" wn-border-element="footer-line" class="s section footer-01 footer-font design-01 sc-w"><div class="section-bg s-bg">
+		<div class="section-bg-layer">
+			
+		</div>
+		<div class="section-bg-layer section-bg-overlay"></div>
+	</div>
+	<div class="section-inner">
+		<div class="footer-line cf">
+			<div class="footer-texts">
+				<div class="copyright cf"><span class="inline-text">
+	<span class="link">© 2020&nbsp;ООО "Арх Дизайн"&nbsp;</span>
+</span></div>
+				<div class="system-footer cf"><span class="sf">
+<span class="sf-content link">Создано с помощью <a href="https://webnode.ru?utm_source=text&utm_medium=footer&utm_campaign=free1&utm_content=wnd2" rel="nofollow" target="_blank">Webnode</a></span>
+</span></div>
+			</div>
+
+			<div class="lang-select cf">
+	
+</div>
+
+		</div>
+	</div>
+</section></div>
+</div>
+
+		</footer></div>
+
+</div>
+
+
+<div id="wnd_footer"><style type="text/css">#wnd_footer {display: block; box-sizing: border-box; text-align: center; overflow: hidden; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; position: relative; width: 100%; font-family: Arial, Roboto, Helvetica, sans-serif; font-weight: normal; font-style: normal; font-size: 15px; line-height: 1.5; background-color: rgba(0, 0, 0, 0.7);}#wnd_footer a {color: #fff; text-decoration: none; display: inline-block;}#wnd_footer_left {width: 100%;}#wnd_footer_left_wrapper {padding: 12px 12px 6px;}#wnd_footer_right {width: 100%;}#wnd_footer_right_wrapper {padding: 6px 12px 14px;}#wnd_footer_logo {background: url(https://d1di2lzuh97fh2.cloudfront.net/client/img/wnd-logo2.svg?ph=3662387ec6) no-repeat; display: inline-block; width: 103px; height: 20px; opacity: .83;}#wnd_footer_logo b {opacity: 0;}@media only screen and (min-width: 480px) {#wnd_footer_left {float: left; min-height: 60px; width: auto; display: table;}#wnd_footer_left_wrapper {text-align: left; padding: 8px 160px 8px 12px; display: table-cell; vertical-align: middle;}#wnd_footer_right {position: absolute; top: 0; left: auto; right: 12px; bottom: 0; width: auto;}#wnd_footer_right_wrapper {text-align: right; padding: 19px 0;}}@media only screen and (min-width: 768px) {#wnd_footer_left_wrapper {padding: 16px 160px 16px 20px;}#wnd_footer_right {right: 20px;}}@media only screen and (min-width: 1200px) {#wnd_footer_left_wrapper {padding-left: 30px;}#wnd_footer_right {right: 30px;}}@media print {#wnd_footer style {display: none !important;}}</style><div id="wnd_footer_left"><div id="wnd_footer_left_wrapper"><a href="https://webnode.ru?utm_source=text&utm_medium=footer&utm_campaign=free1&utm_content=wnd2" target="_blank" rel="nofollow">Создать бесплатный сайт</a></div></div><div id="wnd_footer_right"><div id="wnd_footer_right_wrapper"><a id="wnd_footer_logo" href="https://webnode.ru?utm_source=button&utm_medium=footer&utm_campaign=free1&utm_content=wnd2" target="_blank" rel="nofollow"><b>Webnode</b></a></div></div></div><script type="text/javascript" src="https://d1di2lzuh97fh2.cloudfront.net/files/3o/3og/3ogqg0.js?ph=3662387ec6"></script><script type="application/javascript">!function(){if(0==document.getElementsByClassName("wnd-cms").length)for(var e=document.getElementsByClassName("column-content"),s=0;s<e.length;s++){var t=e[s].querySelector("div"),l=t.getElementsByClassName("b-text-c");void 0!=l[0]&&t.firstChild==t.lastChild&&""===l[0].innerText&&(e[s].classList?e[s].classList.add("column-empty"):(e[s].classList?e[s].classList.contains("column-empty"):new RegExp("\\bcolumn-empty\\b").test(e[s].className))&&(e[s].className+=" column-empty"))}}()</script><script src="https://d1di2lzuh97fh2.cloudfront.net/client.fe/js.compiled/lang.ru.256.js?ph=3662387ec6" crossorigin="anonymous"></script><script src="https://d1di2lzuh97fh2.cloudfront.net/client.fe/js.compiled/compiled.multi.2-788.js?ph=3662387ec6" crossorigin="anonymous"></script><script>var wnd = wnd || {};wnd.$data = {"image_content_items":{"wnd_ThumbnailBlock_452290":{"id":"wnd_ThumbnailBlock_452290","type":"wnd.pc.ThumbnailBlock"},"wnd_Section_default_763427":{"id":"wnd_Section_default_763427","type":"wnd.pc.Section"},"wnd_Section_heading_646452":{"id":"wnd_Section_heading_646452","type":"wnd.pc.Section"},"wnd_Section_services_351424":{"id":"wnd_Section_services_351424","type":"wnd.pc.Section"},"wnd_ImageBlock_583453":{"id":"wnd_ImageBlock_583453","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_138519":{"id":"wnd_ImageBlock_138519","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_220262":{"id":"wnd_ImageBlock_220262","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_625916":{"id":"wnd_ImageBlock_625916","type":"wnd.pc.ImageBlock"},"wnd_Section_heading_68487":{"id":"wnd_Section_heading_68487","type":"wnd.pc.Section"},"wnd_Section_services_44826":{"id":"wnd_Section_services_44826","type":"wnd.pc.Section"},"wnd_ImageBlock_10107":{"id":"wnd_ImageBlock_10107","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_909163":{"id":"wnd_ImageBlock_909163","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_392143":{"id":"wnd_ImageBlock_392143","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_346585":{"id":"wnd_ImageBlock_346585","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_13488":{"id":"wnd_ImageBlock_13488","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_367089":{"id":"wnd_ImageBlock_367089","type":"wnd.pc.ImageBlock"},"wnd_Section_cta_807949":{"id":"wnd_Section_cta_807949","type":"wnd.pc.Section"},"wnd_HeaderSection_header_988903":{"id":"wnd_HeaderSection_header_988903","type":"wnd.pc.HeaderSection"},"wnd_LogoBlock_328416":{"id":"wnd_LogoBlock_328416","type":"wnd.pc.LogoBlock"},"wnd_FooterSection_footer_188115":{"id":"wnd_FooterSection_footer_188115","type":"wnd.pc.FooterSection"}},"svg_content_items":{"wnd_ImageBlock_583453":{"id":"wnd_ImageBlock_583453","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_138519":{"id":"wnd_ImageBlock_138519","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_220262":{"id":"wnd_ImageBlock_220262","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_625916":{"id":"wnd_ImageBlock_625916","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_10107":{"id":"wnd_ImageBlock_10107","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_909163":{"id":"wnd_ImageBlock_909163","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_392143":{"id":"wnd_ImageBlock_392143","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_346585":{"id":"wnd_ImageBlock_346585","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_13488":{"id":"wnd_ImageBlock_13488","type":"wnd.pc.ImageBlock"},"wnd_ImageBlock_367089":{"id":"wnd_ImageBlock_367089","type":"wnd.pc.ImageBlock"},"wnd_LogoBlock_328416":{"id":"wnd_LogoBlock_328416","type":"wnd.pc.LogoBlock"}},"content_items":[],"project_info":{"isMultilanguage":false,"eshop_tax_enabled":"1","country_code":"","contact_state":"","eshop_tax_type":"VAT","eshop_discounts":false}};</script><script>wnd.$system = {"filesPath":"https:\/\/eeca-test.webnode.ru\/_files\/","staticFiles":"https:\/\/d1di2lzuh97fh2.cloudfront.net\/files","isCms":false,"staticCDNServers":["https:\/\/d1di2lzuh97fh2.cloudfront.net\/"],"fileUploadAllowExtension":["jpg","jpeg","png","gif","bmp","ico","svg","webp","tiff","pdf","doc","docx","ppt","pptx","pps","ppsx","odt","xls","xlsx","txt","rtf","mp3","wma","wav","ogg","amr","flac","m4a","3gp","avi","wmv","mov","mpg","mkv","mp4","mpeg","m4v","swf","gpx","stl","csv","xml","txt","dxf","dwg","iges","igs","step","stp"],"maxUserFormFileLimit":4194304,"frontendLanguage":"ru","backendLanguage":"ru","page":{"id":200000009,"identifier":"home","template":{"id":200000002,"styles":{"typography":"t-17","scheme":"cs-slate","additiveColor":"ac-none","acHeadings":false,"acSubheadings":false,"acIcons":false,"acOthers":false,"imageStyle":"img-d-n","imageHover":"img-h-z","imageTitle":"img-t-o","buttonStyle":"b-btn-sq","buttonSize":"b-btn-s-l","buttonDecoration":"b-btn-dn","buttonBorders":"b-btn-bw-1","lineStyle":"line-solid","eshopGridItemStyle":"b-e-ds","lightboxStyle":"lbox-d","columnSpaces":"c-s-s","background":{"default":null},"backgroundSettings":{"default":""}}},"layout":"homepage","name":"\u0413\u043b\u0430\u0432\u043d\u0430\u044f","html_title":"","language":"ru","langId":1,"isHomepage":true,"meta_description":null,"meta_keywords":null,"header_code":null,"footer_code":null,"styles":{"pageBased":{"header":{"variant":"homepage","style":{"sectionColor":"sc-m","background":{"default":{"type":"image","hash":"2hhaxr","mediaType":"publicImages"},"effects":"fx-none","overlays":"overlay-black-light","position":"bgpos-bottom-center","attachment":"bgatt-scroll"},"backgroundSettings":{"default":{"id":"2hhaxr","src":"\/2h\/2hh\/2hhaxr.jpeg","dataType":"static_server","mime":"image\/jpeg","mediaType":"publicImages","width":1920,"height":1130}}}}}},"countFormsEntries":[]},"listingsPrefix":"\/l\/","productPrefix":"\/p\/","cartPrefix":"\/cart\/","checkoutPrefix":"\/checkout\/","isCheckout":false,"isEshop":false,"isProductDetail":false,"isListingDetail":false,"hasEshopAnalytics":false,"gTagId":null,"currency":"USD","format":{"be":{"DATE_TIME":{"mask":"%d.%m.%Y %H:%M","regexp":"^(((0?[1-9]|[1,2][0-9]|3[0,1])\\.(0?[1-9]|1[0-2])\\.[0-9]{1,4})(( [0-1][0-9]| 2[0-3]):[0-5][0-9])?|(([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[1,2][0-9]|3[0,1])(0[0-9]|1[0-9]|2[0-3])[0-5][0-9][0-5][0-9])))?$"},"DATE":{"mask":"%d.%m.%Y","regexp":"^((0?[1-9]|[1,2][0-9]|3[0,1])\\.(0?[1-9]|1[0-2])\\.[0-9]{1,4})$"},"CURRENCY":{"mask":{"point":",","thousands":" ","decimals":2,"mask":"%s","zerofill":true}}},"fe":{"DATE_TIME":{"mask":"%d.%m.%Y %H:%M","regexp":"^(((0?[1-9]|[1,2][0-9]|3[0,1])\\.(0?[1-9]|1[0-2])\\.[0-9]{1,4})(( [0-1][0-9]| 2[0-3]):[0-5][0-9])?|(([0-9]{4}(0[1-9]|1[0-2])(0[1-9]|[1,2][0-9]|3[0,1])(0[0-9]|1[0-9]|2[0-3])[0-5][0-9][0-5][0-9])))?$"},"DATE":{"mask":"%d.%m.%Y","regexp":"^((0?[1-9]|[1,2][0-9]|3[0,1])\\.(0?[1-9]|1[0-2])\\.[0-9]{1,4})$"},"CURRENCY":{"mask":{"point":",","thousands":" ","decimals":2,"mask":"%s","zerofill":true}}}},"e_product":null,"listing_item":null,"labels":{"wnd.fe.CheckoutZipField.brInvalid":"Please enter valid ZIP code in format XXXXX-XXX","wnd.fe.CookieBar.message":"\u041d\u0430 \u044d\u0442\u043e\u043c \u0441\u0430\u0439\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f \u043a\u0443\u043a\u0438 \u0434\u043b\u044f \u0435\u0433\u043e \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e\u0439 \u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b. \u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u044f \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u0434\u0430\u043d\u043d\u044b\u0439 \u0441\u0430\u0439\u0442, \u0432\u044b \u0441\u043e\u0433\u043b\u0430\u0448\u0430\u0435\u0442\u0435\u0441\u044c \u0441 \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438.","wnd.fe.FeFooter.createWebsite":"\u0421\u043e\u0437\u0434\u0430\u0439\u0442\u0435 \u0441\u0432\u043e\u0439 \u0441\u0430\u0439\u0442 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e!","wnd.fe.FormManager.error.file.notAllowedExtension":"\u0424\u043e\u0440\u043c\u0430\u0442 \u0444\u0430\u0439\u043b\u0430 \u0022{EXTENSION}\u0022 \u043d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439.","wnd.fe.FormManager.error.file.required":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0444\u0430\u0439\u043b \u0434\u043b\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438.","wnd.fe.FormManager.error.file.sizeExceeded":"\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0437\u043c\u0435\u0440 \u0444\u0430\u0439\u043b\u0430 \u0434\u043b\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 {SIZE} \u041c\u0431.","wnd.fe.FormManager.error.userChangePassword":"\u041f\u0430\u0440\u043e\u043b\u0438 \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u044e\u0442","wnd.fe.FormManager.error.userLogin.inactiveAccount":"\u0412\u0430\u0448\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0435\u0449\u0435 \u043d\u0435 \u0431\u044b\u043b\u0430 \u043e\u0434\u043e\u0431\u0440\u0435\u043d\u0430, \u0432\u043e\u0439\u0442\u0438 \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0441\u044f.","wnd.fe.FormManager.error.userLogin.invalidLogin":"\u041d\u0435\u0432\u0435\u0440\u043d\u043e\u0435 \u0438\u043c\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f (email) \u0438\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c!","wnd.fe.ListingData.shortMonthName.Apr":"\u0410\u043f\u0440","wnd.fe.ListingData.shortMonthName.Aug":"\u0410\u0432\u0433","wnd.fe.ListingData.shortMonthName.Dec":"\u0414\u0435\u043a","wnd.fe.ListingData.shortMonthName.Feb":"\u0424\u0435\u0432","wnd.fe.ListingData.shortMonthName.Jan":"\u042f\u043d\u0432","wnd.fe.ListingData.shortMonthName.Jul":"\u0418\u044e\u043b","wnd.fe.ListingData.shortMonthName.Jun":"\u0418\u044e\u043d","wnd.fe.ListingData.shortMonthName.Mar":"\u041c\u0430\u0440","wnd.fe.ListingData.shortMonthName.May":"\u041c\u0430\u0439","wnd.fe.ListingData.shortMonthName.Nov":"\u041d\u043e\u044f","wnd.fe.ListingData.shortMonthName.Oct":"\u041e\u043a\u0442","wnd.fe.ListingData.shortMonthName.Sep":"\u0421\u0435\u043d","wnd.fe.ShoppingCartManager.count.between2And4":"{COUNT} \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043e\u0432","wnd.fe.ShoppingCartManager.count.moreThan5":"{COUNT} \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430","wnd.fe.ShoppingCartManager.count.one":"{COUNT} \u043f\u0440\u0435\u0434\u043c\u0435\u0442","wnd.fe.ShoppingCartTable.label.itemsInStock":"Only {COUNT} pcs available in stock","wnd.fe.ShoppingCartTable.label.itemsInStock.between2And4":"\u0422\u043e\u043b\u044c\u043a\u043e {COUNT} \u0448\u0442. \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438","wnd.fe.ShoppingCartTable.label.itemsInStock.moreThan5":"\u0422\u043e\u043b\u044c\u043a\u043e {COUNT} \u0448\u0442. \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438","wnd.fe.ShoppingCartTable.label.itemsInStock.one":"\u0422\u043e\u043b\u044c\u043a\u043e {COUNT} \u0448\u0442. \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438","wnd.fe.ShoppingCartTable.label.outOfStock":"\u041d\u0435\u0442 \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438","wnd.fe.UserBar.logOut":"\u0412\u044b\u0439\u0442\u0438","wnd.pc.BlogDetailPageZone.next":"\u041d\u043e\u0432\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438","wnd.pc.BlogDetailPageZone.previous":"\u0421\u0442\u0430\u0440\u044b\u0435 \u0441\u0442\u0430\u0442\u044c\u0438","wnd.pc.FileBlock.download":"\u0421\u041a\u0410\u0427\u0410\u0422\u042c","wnd.pc.FormBlock.action.defaultMessage.text":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u0431\u044b\u043b\u043e \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e.","wnd.pc.FormBlock.action.defaultMessage.title":"\u0421\u043f\u0430\u0441\u0438\u0431\u043e!","wnd.pc.ListingDetailPageZone.next":"\u0414\u0430\u043b\u0435\u0435","wnd.pc.ListingDetailPageZone.previous":"\u041d\u0430\u0437\u0430\u0434","wnd.pc.ListingItemCopy.namePrefix":"\u041a\u043e\u043f\u0438\u044f","wnd.pc.Option.defaultText":"\u041d\u043e\u0432\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442","wnd.pc.PageCopy.namePrefix":"\u041a\u043e\u043f\u0438\u044f","wnd.pc.ProductAddToCartBlock.addToCart":"\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0443","wnd.pc.ProductItem.button.viewDetail":"\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0442\u043e\u0432\u0430\u0440\u0430","wnd.pc.ProductOptionGroupBlock.notSelected":"\u041d\u0438 \u043e\u0434\u0438\u043d \u0432\u0430\u0440\u0438\u0430\u043d\u0442 \u043d\u0435 \u0432\u044b\u0431\u0440\u0430\u043d","wnd.pc.ProductOutOfStockBlock.label":"\u041d\u0435\u0442 \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438","wnd.pc.ProductPriceBlock.prefixText":"\u041e\u0442\u00a0","wnd.pc.ProductPriceBlock.suffixText":"","wnd.pc.ProductsZone.label.collections":"\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438","wnd.pc.ProductsZoneModel.label.allCollections":"\u0412\u0441\u0435 \u0442\u043e\u0432\u0430\u0440\u044b","wnd.pc.ShoppingCartTable.label.checkout":"\u041e\u043f\u043b\u0430\u0442\u0430 \u0437\u0430\u043a\u0430\u0437\u0430","wnd.pc.ShoppingCartTable.label.checkoutDisabled":"\u0417\u0430\u043a\u0430\u0437 \u0442\u043e\u0432\u0430\u0440\u0430 \u043d\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d \u0441\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b \u0438\u043b\u0438 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438)","wnd.pc.ShoppingCartTable.label.continue":"\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c \u043f\u043e\u043a\u0443\u043f\u043a\u0443","wnd.pc.ShoppingCartTable.label.delete":"\u0423\u0434\u0430\u043b\u0438\u0442\u044c","wnd.pc.ShoppingCartTable.label.item":"\u0422\u043e\u0432\u0430\u0440","wnd.pc.ShoppingCartTable.label.price":"\u0426\u0435\u043d\u0430","wnd.pc.ShoppingCartTable.label.quantity":"\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e","wnd.pc.ShoppingCartTable.label.sum":"\u0418\u0442\u043e\u0433\u043e","wnd.pc.ShoppingCartTable.label.totalPrice":"\u0418\u0442\u043e\u0433\u043e","wnd.pc.ShoppingCartTable.placeholder.text":"\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u044d\u0442\u043e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c! \u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0447\u0442\u043e-\u043d\u0438\u0431\u0443\u0434\u044c \u0438\u0437 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430.","wnd.pc.ShoppingCartTable.placeholder.title":"\u0412\u0430\u0448\u0430 \u043a\u043e\u0440\u0437\u0438\u043d\u0430 \u043f\u0443\u0441\u0442\u0430.","wnd.pc.SystemFooterBlock.poweredByWebnode":"\u0421\u043e\u0437\u0434\u0430\u043d\u043e \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e {START_LINK}Webnode{END_LINK}","wnd.pc.UserChangePasswordFormBlock.invalidRecoveryUrl":"\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u043e\u043b\u044f \u0438\u0441\u0442\u0435\u043a\u043b\u043e. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u043f\u0440\u043e\u0441\u0438\u0442\u0435 \u043d\u043e\u0432\u0443\u044e \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 {START_LINK}\u0417\u0430\u0431\u044b\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c{END_LINK}","wnd.pc.UserRecoveryFormBlock.action.defaultMessage.text":"\u0421\u0441\u044b\u043b\u043a\u0430 \u0434\u043b\u044f \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u043f\u0430\u0440\u043e\u043b\u044f \u0431\u044b\u043b\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430 \u043d\u0430 \u0432\u0430\u0448 \u0430\u0434\u0440\u0435\u0441. \u0415\u0441\u043b\u0438 \u0432\u044b \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0438 \u043f\u0438\u0441\u044c\u043c\u043e, \u043f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u043f\u0430\u043f\u043a\u0443 \u0421\u043f\u0430\u043c.","wnd.pc.UserRecoveryFormBlock.action.defaultMessage.title":"\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u043f\u0430\u0440\u043e\u043b\u044f \u0431\u044b\u043b \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d","wnd.pc.UserRegistrationFormBlock.action.defaultMessage.text":"\u0412\u0430\u0448\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043e\u0436\u0438\u0434\u0430\u0435\u0442 \u043e\u0434\u043e\u0431\u0440\u0435\u043d\u0438\u044f. \u041a\u043e\u0433\u0434\u0430 \u043e\u043d\u0430 \u0431\u0443\u0434\u0435\u0442 \u043e\u0434\u043e\u0431\u0440\u0435\u043d\u0430, \u0432\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 \u043f\u043e\u0447\u0442\u0443.","wnd.pc.UserRegistrationFormBlock.action.defaultMessage.title":"\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044e \u043d\u0430 \u043d\u0430\u0448\u0435\u043c \u0441\u0430\u0439\u0442\u0435.","wnd.pm.AddNewPagePattern.onlineStore":"\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043c\u0430\u0433\u0430\u0437\u0438\u043d"},"kbLinks":{"faq":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/List\/Index\/129\/","domainTransfer":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/Article\/View\/1232\/","webmailLogin":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/Article\/View\/1248\/","webmail":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/List\/Index\/158\/","introduction":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/Article\/View\/2032\/","orderTracking":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/Article\/View\/4972\/","storageBandwidth":"https:\/\/www.webnode.ru\/faq\/index.php?\/Knowledgebase\/Article\/View\/913\/","eshopPromoVariants":"https:\/\/www.webnode.ru\/blog\/2018\/11\/eshop-new-variants\/","eshopDiscounts":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/5476\/","domainRegistration":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/3188\/","domainBirthdateInfo":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/150\/","skRegistration":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/228\/","euTransfer":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/230\/","subPage":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/3122\/","import":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/5157\/","eshopPromo":"https:\/\/blog.webnode.com\/blog\/2018\/06\/get-your-online-store-going-today\/","checkoutFi":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/5392\/","emailAccounts":"https:\/\/www.webnode.com\/support\/index.php?\/Knowledgebase\/Article\/View\/3211\/","freightPriceSettings":"https:\/\/www.webnode.co.uk\/support\/index.php?\/Knowledgebase\/Article\/View\/5659\/"},"aviary":[]};</script></body></html>
